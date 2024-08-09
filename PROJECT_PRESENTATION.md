@@ -1,4 +1,6 @@
-![Alt text](https://i.redd.it/a96sqrswk5451.jpg)
+
+![Alt text](https://www.englishclub.com/efl/wp-content/uploads/2013/11/palindrome.png)
+
 
 
 # Kata code challenge - create a Palindrome
@@ -6,6 +8,7 @@
 This challenge involves desiging and testing our very own Kata, aka a coding challenge, to be solved by other students. Using unit testing, we are able to challenge the user to write the correct function so that it passes the tests that we have set up.
 
 ![Alt text](https://snipboard.io/8VY4DG.jpg)
+![Alt text](https://i.redd.it/a96sqrswk5451.jpg)
 
 ## Planning
 
