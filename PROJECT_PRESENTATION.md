@@ -1,6 +1,4 @@
-![Alt text](https://www.englishclub.com/efl/wp-content/uploads/2013/11/palindrome.png)
-
-![Alt text](https://cdn.mos.cms.futurecdn.net/wJ4s9FFL6FdxAoKixtr4FS.jpg)
+![Alt text](https://i.redd.it/a96sqrswk5451.jpg)
 
 
 # Kata code challenge - create a Palindrome
