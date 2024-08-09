@@ -1,3 +1,7 @@
+// Please read PROJECT_PRESENTATION.md first
+
+// ---
+
 // Hello Challenger 
 
 // Your mission is to create a function named `palindrome` that takes a string as input and returns `true` if the string is a palindrome, and `false` otherwise. 
@@ -10,95 +14,12 @@
 
 // Note: The function should be case-insensitive, treating "Racecar" and "racecar" as the same. 
 
+// If you're stuck check the hint file.
+
 //Good luck. 🚀👽🥶
 
 
 export function palindrome(string) {
-    let upperCaseString = string.toUpperCase()
-    for (let i = 0; i < upperCaseString.length; i++) {
-        if (upperCaseString[i] !== upperCaseString[upperCaseString.length - 1 - i]) {
-            return false
-        }
-    }
-    return true
+//  write your code below... 
 }
 
-
-// SCROLL FOR HINT ⬇️⬇️
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-// A 'For' loop could be useful
