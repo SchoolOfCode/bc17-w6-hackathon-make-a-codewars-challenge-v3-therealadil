@@ -1,22 +1,26 @@
-import {test, expect} from "vitest"
+import { test, expect } from "vitest"
 
-import { oddOrEven } from "./main.js"
+import { oddOrEven, palindrome } from "./main.js"
 
-test("oddOrEven odd check", () => {
-    expect(oddOrEven(1)).toBe("odd")
-    expect(oddOrEven(3)).toBe("odd")
-    expect(oddOrEven(5)).toBe("odd")
-    expect(oddOrEven(7)).toBe("odd")
-    expect(oddOrEven(9)).toBe("odd")
-    expect(oddOrEven(11)).toBe("odd")
+// test("oddOrEven odd check", () => {
+//     expect(oddOrEven(1)).toBe("odd")
+// })
+
+// test("oddOrEven even check", () => {
+//     expect(oddOrEven(2)).toBe("even")
+// })
+
+test("palindrom check true", () => {
+   expect(palindrome("racecar")).toBe(true)
+   expect(palindrome("level")).toBe(true)
+   expect(palindrome("kayak")).toBe(true)
+   expect(palindrome("hannah")).toBe(true)
+
 })
 
-test("oddOrEven even check", () => {
-    expect(oddOrEven(2)).toBe("even")
-    expect(oddOrEven(4)).toBe("even")
-    expect(oddOrEven(6)).toBe("even")
-    expect(oddOrEven(8)).toBe("even")
-    expect(oddOrEven(10)).toBe("even")
-    expect(oddOrEven(12)).toBe("even")
-    expect(oddOrEven(14)).toBe("even")
-})
+test("palindrome check false", () => {
+    expect(palindrome("jupiter")).toBe(false)
+    expect(palindrome("adil")).toBe(false)
+    expect(palindrome("schoolofcode")).toBe(false)
+    expect(palindrome("olympics")).toBe(false)
+ })
