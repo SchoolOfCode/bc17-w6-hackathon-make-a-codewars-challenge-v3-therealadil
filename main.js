@@ -1,19 +1,104 @@
-/**
- * Hello challenger! Your task is to write a function named `transformLength` which takes in a string and returns 1 if the length of the string is even and otherwise -1.
- *
- * Your implementation should handle strings whose length is between 0 (inclusive) and 2500 (inclusive).
- *
- * A few examples:
- *    `transformLength("table")` should return -1 as the length of "table" is not even
- *    `transformLength("wizard")` should return 1 as the length of "wizard" is even
- */
+// Hello Challenger 
+
+// Your mission is to create a function named `palindrome` that takes a string as input and returns `true` if the string is a palindrome, and `false` otherwise. 
+
+// Palindrome/ˈpalɪndrəʊm/: a word, phrase, or sequence that reads the same backwards as forwards, e.g. racecar 🏎️
+
+// Examples to guide you:
+//      - `palindrome("TENET")` should return `true` because "TENET" is a palindrome. 🔄
+//      - `palindrome("icecream")` should return `false` because "icecream" is not a palindrome. ❌
+
+// Note: The function should be case-insensitive, treating "Racecar" and "racecar" as the same. 
+
+//Good luck. 🚀👽🥶
 
 
 export function palindrome(string) {
-    for (let i = 0; i < string.length; i++) {
-        if (string[i] !== string[string.length - 1 - i]) {
+    let upperCaseString = string.toUpperCase()
+    for (let i = 0; i < upperCaseString.length; i++) {
+        if (upperCaseString[i] !== upperCaseString[upperCaseString.length - 1 - i]) {
             return false
         }
     }
     return true
 }
+
+
+// SCROLL FOR HINT ⬇️⬇️
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// A 'For' loop could be useful
